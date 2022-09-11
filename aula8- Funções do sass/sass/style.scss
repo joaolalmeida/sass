@@ -13,7 +13,7 @@
     @if (lightness($background-color) > 50) {
         @return black;
     } @else {
-        @return red;
+        @return blue;
     }
 }
 
